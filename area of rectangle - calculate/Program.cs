@@ -8,7 +8,8 @@ namespace area_of_rectangle___calculate
         {
             Console.WriteLine("Calculate the area of a rectangle");
             Console.Write("Enter length of rectangle: ");
-            //var length = Console.ReadLine();
+            
+            //can use decimal or other number type in the place of int
             int lengthInt = int.Parse(Console.ReadLine());
             Console.Write("Enter width of rectangle: ");
             int widthInt = int.Parse(Console.ReadLine());
